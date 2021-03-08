@@ -154,7 +154,7 @@ section .title::after{
     font-family: 'Poppins', sans-serif;
 }
 .about .title::after{
-    content: "Who am I";
+    content: "Experience";
 }
 .about{
     background: #7E909A;
@@ -218,12 +218,12 @@ section .title::after{
 }
 .skills .title::after{
     background: #111;
-    content: "Full Stack Developer";
+    content: "Click logos for Github Profile";
     height: 10px
 }
 .skills-content .card{
     float: left;
-    width: calc(50% - 25px);
+    width: calc(50% - 15px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -231,21 +231,19 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.skills-content .card:hover{
-    background: #EA6A47;
-}
+
 .skills-content .card .box{
     transition: all 0.3s ease;
 }
 .skills-content .card:hover .box{
     transform: scale(1.05);
 }
-.skills-content .card i{
+.skills-content .card a{
     font-size: 50px;
     color: #EA6A47;
     transition: color 0.3s ease;
 }
-.skills-content .card:hover i{
+.skills-content .card:hover a{
     color:#fff;
 }
 .skills-content .card .text{
@@ -279,19 +277,16 @@ section .title::after{
 .contact-content .left p{
     text-align: justify;
     float: left;
+    margin: 10px 0;
+    color: #1C4E80;
 }
 .contact-content .right p{
     text-align: justify;
     float: right;
-}
-.contact-content .left .icons{
     margin: 10px 0;
-    color: #1C4E80;
+    color: #1C4E80; 
 }
-.contact-content .right .icons{
-    margin: 10px 0;
-    color: #1C4E80;
-}
+
 .contact-content .row{
     display: flex;
     height: 65px;
@@ -304,7 +299,7 @@ section .title::after{
     font-size: 25px;
     color: #1C4E80;
 }
-.contact-content .info .head{
+.contact-content .head{
     font-weight: 500;
 }
 .contact-content .info .sub-title{
