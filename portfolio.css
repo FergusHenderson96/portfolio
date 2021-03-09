@@ -74,7 +74,7 @@
     background: #7E909A;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 85vh;
     color: #fff;
     min-height: 300px;
     font-family: 'Ubuntu', sans-serif;
@@ -170,7 +170,8 @@ section .title::after{
     width: 45%;
 }
 .about-content .left img{
-    width: 45%;
+    width: 450px;
+    height: 400px;
     border-radius: 3px;
 }
 
