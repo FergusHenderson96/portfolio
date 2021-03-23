@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 .max-width{
-    max-width: 1300px;
+    max-width: 1500px;
     padding: 0px 80px;
     margin: auto;
 }
@@ -74,7 +74,7 @@
     background: #7E909A;
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
+    height: 650px;
     color: #fff;
     min-height: 300px;
     font-family: 'Ubuntu', sans-serif;
@@ -252,6 +252,51 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.projects{
+    color: #fff;
+    background: #111;
+    height: 1500px;
+    display: flex;
+    flex: wrap;
+    height: 900px;
+}
+.projects .title::before{
+    background: #7E909A;
+    height: 10px;
+    width: 100px
+}
+.projects .title::after{
+    background: #111;
+    content: "Links in images";
+    height: 10px
+}
+.projects-content .card{
+    float: left;
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.projects-content .card .box{
+    transition: all 0.3s ease;
+}
+.projects-content .card:hover .box{
+    transform: scale(1.05);
+}
+.projects-content .card a{
+    font-size: 50px;
+    transition: color 0.3s ease;
+}
+.projects-content .card:hover a{
+    color:#fff;
+}
+.projects-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 .contact{
     background: #7E909A;
 }
@@ -392,6 +437,12 @@ padding: 20px 23px;
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .projects{
+        height: 1400px;
+    }
+    .projects .projects-content .card{
+        margin-bottom: 20px;
+    }
     .contact .contact-content .column{
         width: 50%;
         margin-bottom: 35px;
@@ -436,6 +487,18 @@ padding: 20px 23px;
         width: 10px;
     }
     .skills .skills-content .card{
+        width: 100%;
+    }
+    .projects{
+        height:  1550px;
+    }
+    .projects .title::after{
+        height: 8px;
+    }
+    .projects .title::before{
+        width: 10px;
+    }
+    .projects .projects-content .card{
         width: 100%;
     }
     
