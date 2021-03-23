@@ -511,10 +511,10 @@ padding: 20px 23px;
     }
     .projects .sites{
         height: 300px;
-        width: 75%;
+        width: 80%;
     }
     .projects .projects-content .card{
-        width: 80%;
+        width: 100%;
         margin-bottom: 20px;
     }
     
