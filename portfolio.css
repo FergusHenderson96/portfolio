@@ -504,10 +504,10 @@ padding: 20px 23px;
         width: 10px;
     }
     .projects .sites{
-        width: 75%;
+        width: 90%;
     }
     .projects .projects-content .card{
-        width: 90%;
+        width: 500px;
         display: flex;
         align-items: center;
     }
