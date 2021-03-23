@@ -251,10 +251,14 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+/*projects section styling */
 .projects{
     color: #fff;
     background: #111;
     height: 1000px;
+    display: flex;
+    flex: wrap;
 }
 .projects .title::before{
     background: #7E909A;
@@ -287,7 +291,6 @@ section .title::after{
 }
 .projects-content .card a{
     font-size: 50px;
-    transition: color 0.3s ease;
 }
 .projects-content .card:hover a{
     color:#fff;
@@ -297,6 +300,9 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+
+/*content section styling */
 .contact{
     background: #7E909A;
 }
@@ -434,7 +440,7 @@ padding: 20px 23px;
         flex: 100%;
     }
     .skills .skills-content .card{
-        width: calc(50% - 10px);
+        width: 100%;
         margin-bottom: 20px;
     }
     .projects{
