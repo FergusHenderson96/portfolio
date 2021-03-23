@@ -426,7 +426,7 @@ padding: 20px 23px;
         padding: 15px 30px;
     }
     .max-width{
-        max-width: 100%;
+        max-width: 800px;
     }
     .about .about-content .column{
         width: 100%;
@@ -448,10 +448,10 @@ padding: 20px 23px;
     }
     .projects .sites{
         height: 300px;
-        width: 200px;
+        width: 75%;
     }
     .projects .projects-content .card{ 
-        width: 300px;
+        width: 100%;
         margin-bottom: 20px;
     }
     .contact .contact-content .column{
@@ -510,12 +510,12 @@ padding: 20px 23px;
         width: 10px;
     }
     .projects .sites{
-        width: 90%;
+        height: 300px;
+        width: 75%;
     }
     .projects .projects-content .card{
-        width: 500px;
-        display: flex;
-        align-items: center;
+        width: 80%;
+        margin-bottom: 20px;
     }
     
 }
