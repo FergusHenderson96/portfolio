@@ -167,7 +167,7 @@ section .title::after{
     justify-content: space-between;
 }
 .about-content .left{
-    width: 45%;
+    width: 50%;
 }
 .about-content .left img{
     width: 450px;
@@ -186,7 +186,7 @@ section .title::after{
 }
 .about-content .right{
     text-align: justify;
-    width: 55%;
+    width: 50%;
 }
 .about-content .right a{
     display: flex;
@@ -214,12 +214,11 @@ section .title::after{
 }
 .skills .title::before{
     background: #7E909A;
-    height: 10px
+    width: 350px
 }
 .skills .title::after{
     background: #111;
     content: "Click logos for Github Profile";
-    height: 10px
 }
 .skills-content .card{
     float: left;
@@ -256,19 +255,17 @@ section .title::after{
 .projects{
     color: #fff;
     background: #111;
-    height: 1000px;
+    height: 800px;
     display: flex;
     flex: wrap;
 }
 .projects .title::before{
     background: #7E909A;
-    height: 10px;
-    width: 100px
+    width: 250px
 }
 .projects .title::after{
     background: #111;
     content: "Links in images";
-    height: 10px
 }
 .projects-content .card{
     float: left;
@@ -439,12 +436,15 @@ padding: 20px 23px;
     .about .about-content .right{
         flex: 100%;
     }
+    .skills{
+        height: 1400px;
+    }
     .skills .skills-content .card{
         width: 100%;
         margin-bottom: 20px;
     }
     .projects{
-        height: 1400px;
+        height: 1200px;
     }
     .projects .sites{
         height: 300px;
