@@ -348,6 +348,14 @@ section .title::after{
     font-size: 25px;
     color: #1C4E80;
 }
+/* .contact-icon{
+    height: 25px;
+    width: 25px;
+}
+.contact-icon:hover{
+    transform: scale(1.15);
+    transition: all 0.3s ease;
+} */
 .contact-content .head{
     font-weight: 500;
 }
