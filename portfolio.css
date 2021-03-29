@@ -254,7 +254,7 @@ section .title::after{
 .projects{
     color: #fff;
     background: #111;
-    height: 800px;
+    height: 1100px;
     display: flex;
     flex: wrap;
 }
@@ -451,7 +451,7 @@ padding: 20px 23px;
         margin-bottom: 20px;
     }
     .projects{
-        height: 1200px;
+        height: 1900px;
     }
     .projects .sites{
         height: 300px;
@@ -508,7 +508,7 @@ padding: 20px 23px;
         width: 100%;
     }
     .projects{
-        height:  1550px;
+        height:  2000px;
     }
     .projects .title::after{
         height: 8px;
