@@ -12,7 +12,7 @@
 }
 /*navbar styling*/
 .navbar{
-    background: #1C4E80;
+    background: none;
     position: fixed;
     padding: 30px 0;
     z-index: 999;
@@ -22,7 +22,7 @@
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #EA6A47;
+    background: #BB86FC;
 }
 .navbar .max-width{
     display: flex;
@@ -34,17 +34,17 @@
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
-    color: #EA6A47;
+/* .navbar .logo a span{
+    color: #BB86FC;
     transition: all 0.3s ease;
-}
+} */
 .navbar.sticky .logo a{
     color: #FFF;
 }
-.navbar.sticky .logo a span{
-    color: #1C4E80;
+/* .navbar.sticky .logo a span{
+    color: #BB86FC;
     transition: all 0.3s ease;
-}
+} */
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -55,12 +55,13 @@
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    display: block;
 }
 .navbar .menu li a:hover{
-    color: #EA6A47;
+    color: #03DAC5;
 }
 .navbar.sticky .menu li a:hover{
-    color: #1C4E80;
+    color: #03DAC5;
 }
 .menu-btn{
     color: #fff;
@@ -71,10 +72,10 @@
 .home{
     display: flex;
     background: url("") no-repeat center;
-    background: #7E909A;
+    background: #222;
     background-size: cover;
     background-attachment: fixed;
-    height: 650px;
+    height: 750px;
     color: #fff;
     min-height: 300px;
     font-family: 'Ubuntu', sans-serif;
@@ -95,26 +96,10 @@
     margin: 5px 0;
 }
 .home-content .text-3 span{
-    color: #1C4E80;
+    color: #03DAC5;
     font-weight: 500;
 }
-.home-content a{
-    display: inline-block;
-    background: #1C4E80;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #1C4E80;
-    transition: all 0.3s ease;
-}
-.home-content a:hover{
-    color:#1C4E80;
-    color: #fff;
-    background: none;
-    border: 2px solid #1C4E80;
-}
+
 
 /*all relative content styling code */
 section{
@@ -146,18 +131,18 @@ section .title::after{
     font-size: 20px;
     color: #1C4E80;
     padding: 5px;
-    background: #7E909A;
+    background: #8e9fa5;
     transform: translateX(-50%);
     }
  /*about section styling */
- .about, .services, .contact, .footer{
+ .about, .contact, .footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .title::after{
     content: "Experience";
 }
 .about{
-    background: #7E909A;
+    background: #8e9fa5;
 }
 .about-content,
 .skills-content{
@@ -196,12 +181,9 @@ section .title::after{
     display: flex;
     text-align: center;
     width: 15%;
-    font-size: 20px;
-    font-weight: 500;
     padding: 1px 15px;
     border-radius: 10px;
-    border: 2px solid #1C4E80;
-    transition: all 0.3s ease;
+    border: 3px solid #1C4E80;
     color: #1C4E80;
     background: none;  
 }
@@ -209,21 +191,30 @@ section .title::after{
     display: flex;
     text-align: center;
     width: 25%;
-    font-size: 20px;
-    font-weight: 500;
     padding: 1px 15px;
     border-radius: 10px;
-    border: 2px solid #1C4E80;
-    transition: all 0.3s ease;
+    border: 3px solid #1C4E80;
     color: #1C4E80;
     background: none;
     margin-left: 10px;
 }
-.about-content .cv:hover{
-    transform: scale(1.1);
+.about-content .cv p{
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
-.about-content .certificate:hover{
-    transform: scale(1.1);
+.about-content .certificate p{
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.about-content .cv p:hover{
+    transform: scale(1.05);
+    color: #03DAC5;
+}
+.about-content .certificate p:hover{
+    transform: scale(1.05);
+    color: #03DAC5;
 }
 
 /*skills section styling */
@@ -235,12 +226,13 @@ section .title::after{
     flex: wrap;
 }
 .skills .title::before{
-    background: #7E909A;
+    background: #03DAC5;
     width: 350px
 }
 .skills .title::after{
     background: #111;
     content: "Click logos for Github Profile";
+    color: #BB86FC;
 }
 .skills-content .card{
     float: left;
@@ -261,7 +253,7 @@ section .title::after{
 }
 .skills-content .card a{
     font-size: 50px;
-    color: #EA6A47;
+    color: #03DAC5;
     transition: color 0.3s ease;
 }
 .skills-content .card:hover a{
@@ -282,16 +274,17 @@ section .title::after{
     flex: wrap;
 }
 .projects .title::before{
-    background: #7E909A;
+    background: #03DAC5;
     width: 250px
 }
 .projects .title::after{
     background: #111;
     content: "Links in images";
+    color: #BB86FC;
 }
 .projects-content .card{
     float: left;
-    background: #222;
+    background: #111;
     text-align: center;
     border-radius: 6px;
     padding: 10px 15px;
@@ -303,6 +296,7 @@ section .title::after{
     width: 90%;
 }
 .projects-content .card .box{
+    padding: 20px 25px;
     transition: all 0.3s ease;
 }
 .projects-content .card:hover .box{
@@ -323,7 +317,7 @@ section .title::after{
 
 /*content section styling */
 .contact{
-    background: #7E909A;
+    background: #8e9fa5;
 }
 .contact-content{
     display: flex;
@@ -333,6 +327,7 @@ section .title::after{
 }
 .contact .title::after{
     content: "Get in touch";
+    background: #8e9fa5;
 }
 .contact-content .text{
     font-size: 20px;
@@ -509,7 +504,7 @@ padding: 20px 23px;
         width: 25%;
     }
     .skills{
-        height: 1400px;
+        height: 1500px;
     }
     .skills .skills-content .card{
         width: 100%;
@@ -567,7 +562,7 @@ padding: 20px 23px;
         width: 27%;
     }
     .skills{
-        height:  1550px;
+        height: 1550px;
     }
     .skills .title::after{
         height: 8px;
@@ -579,7 +574,7 @@ padding: 20px 23px;
         width: 100%;
     }
     .projects{
-        height: 2400px;
+        height: 2500px;
     }
     .projects .title::after{
         height: 8px;
@@ -605,7 +600,9 @@ padding: 20px 23px;
         width: 35%;
         margin-left: 10px;
     }
-
+    .projects{
+        height: 2700px;
+    }
 }
 @media (max-width: 500px){
     .home .home-content .text-2{
@@ -621,4 +618,5 @@ padding: 20px 23px;
         width: 45%;
         margin-left: 10px;
     }
+    
 }
