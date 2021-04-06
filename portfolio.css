@@ -286,8 +286,8 @@ section .title::after{
     float: left;
     background: #111;
     text-align: center;
-    border-radius: 6px;
-    padding: 10px 15px;
+    border-radius: 5px;
+    padding: 10px 10px;
     cursor: pointer;
     transition: all 0.3s ease;
     width: 50%;
@@ -313,7 +313,10 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
+.projects-content .card .box .img{
+    width: 100%;
+    height: 80%;
+}
 
 /*content section styling */
 .contact{
