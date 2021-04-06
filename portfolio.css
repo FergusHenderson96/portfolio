@@ -71,8 +71,8 @@
 }
 .home{
     display: flex;
-    background: url("") no-repeat center;
-    background: #222;
+    background: url("https://cdn.wallpapersafari.com/55/4/2TRWqg.jpg") no-repeat center;
+    /* background: #222; */
     background-size: cover;
     background-attachment: fixed;
     height: 750px;
@@ -236,8 +236,8 @@ section .title::after{
 }
 .skills-content .card{
     float: left;
-    width: calc(50% - 15px);
-    background: #222;
+    width: calc(33% - 15px);
+    background: #111;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -293,8 +293,8 @@ section .title::after{
     width: 50%;
 }
 .projects .sites{
-    width: 90%;
-    height: 80%;
+    width: 600px;
+    height: 250px;
 }
 .projects-content .card .box{
     padding: 20px 25px;
@@ -397,12 +397,20 @@ padding: 20px 23px;
         width: 35%;
     }
     .projects{
-        height: 1200px;
+        height: 1400px;
+    }
+    .projects .sites{
+        width: 400px;
+        height: 250px;
     }
 }
 @media (max-width: 1200px){
     .projects{
-        height: 1250px;
+        height: 1400px;
+    }
+    .projects .sites{
+        width: 400px;
+        height: 250px;
     }
 }
 @media (max-width: 1150px){
@@ -505,14 +513,14 @@ padding: 20px 23px;
         width: 25%;
     }
     .skills{
-        height: 1500px;
+        height: 900px;
     }
     .skills .skills-content .card{
-        width: 100%;
+        width: 33%;
         margin-bottom: 20px;
     }
     .projects{
-        height: 2500px;
+        height: 2900px;
     }
     .projects .sites{
         height: 300px;
@@ -563,7 +571,7 @@ padding: 20px 23px;
         width: 27%;
     }
     .skills{
-        height: 1550px;
+        height: 1200px;
     }
     .skills .title::after{
         height: 8px;
@@ -572,10 +580,10 @@ padding: 20px 23px;
         width: 10px;
     }
     .skills .skills-content .card{
-        width: 100%;
+        width: 50%;
     }
     .projects{
-        height: 2500px;
+        height: 2800px;
     }
     .projects .title::after{
         height: 8px;
@@ -602,7 +610,7 @@ padding: 20px 23px;
         margin-left: 10px;
     }
     .projects{
-        height: 2700px;
+        height: 3100px;
     }
 }
 @media (max-width: 500px){
