@@ -313,7 +313,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.projects-content .card .box .img{
+.projects-content .img{
     width: 100%;
     height: 80%;
 }
