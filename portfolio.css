@@ -347,11 +347,12 @@ section .title::after{
     margin: 10px 0;
     color: #1C4E80;
 }
-.contact-content .right p{
+.contact-content p{
     text-align: justify;
     float: right;
-    margin: 10px 0;
-    color: #1C4E80; 
+    margin-right: 10px;
+    color: #fff; 
+    font-size: 20px;
 }
 
 .contact-content .row{
@@ -618,6 +619,12 @@ padding: 20px 23px;
     .projects .sites{
         height: 150px;
         width: 95%;
+    }
+    .contact-content p{
+        display: none;
+    }
+    .contact-content .column-right a{
+        font-size: 30px;
     }
 }
 @media (max-width: 500px){
