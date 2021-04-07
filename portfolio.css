@@ -482,6 +482,9 @@ padding: 20px 23px;
         margin: 20px 0;
         font-size: 25px;
     }
+    .home{
+        background: #111;
+    }
     .home .home-content .text-2{
         font-size: 70px;
     }
