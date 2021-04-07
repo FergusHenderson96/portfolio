@@ -156,7 +156,7 @@ section .title::after{
 }
 .about-content .left img{
     width: 450px;
-    height: 450px;
+    height: 500px;
 }
 
 .about-content .right .text{
@@ -427,8 +427,15 @@ padding: 20px 23px;
 }
 @media (max-width: 1104px){
     .about .about-content .left img{
-        height: 350px;
-        width: 350PX;
+        height: 450px;
+        width: 400PX;
+        margin-left: -40px;
+    }
+    .about-content .left{
+        width: 40%;
+    }
+    .about-content .right{
+        width: 55%;
     }
     .about-content .cv{
         width: 20%;
@@ -507,11 +514,14 @@ padding: 20px 23px;
         justify-content: center;
         margin: 0 auto 60px;
     }
+    .about .about-content .left img{
+        margin-left: 0;
+    }
     .about .about-content .right{
         flex: 100%;
     }
     .about-content .cv{
-        width: 10%;
+        width: 12%;
     }
     .about-content .certificate{
         width: 25%;
@@ -569,10 +579,10 @@ padding: 20px 23px;
         padding: 9px 25px;
     }
     .about-content .cv{
-        width: 15%;
+        width: 17%;
     }
     .about-content .certificate{
-        width: 27%;
+        width: 30%;
     }
     .skills{
         height: 1200px;
@@ -635,10 +645,19 @@ padding: 20px 23px;
         font-size: 27px;
     }
     .about-content .cv{
-        width: 23%;
+        width: 25%;
     }
     .about-content .certificate{
-        width: 45%;
+        width: 52%;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 400px){
+    .about-content .cv{
+        width: 30%;
+    }
+    .about-content .certificate{
+        width: 62%;
         margin-left: 10px;
     }
     
