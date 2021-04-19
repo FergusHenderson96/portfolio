@@ -613,7 +613,11 @@ padding: 20px 23px;
         width: 100%;
         margin-bottom: 20px;
     }
-    
+    .about .about-content .left img{
+        height: 450px;
+        width: 375PX;
+        margin-left: 0;
+    }
 }
 @media (max-width: 540px){
     .about-content .cv{
@@ -636,6 +640,11 @@ padding: 20px 23px;
     .contact-content .column-right a{
         font-size: 30px;
     }
+    .about .about-content .left img{
+        height: 350px;
+        width: 275PX;
+        margin-left: 0;
+    }
 }
 @media (max-width: 500px){
     .home .home-content .text-2{
@@ -651,6 +660,7 @@ padding: 20px 23px;
         width: 52%;
         margin-left: 10px;
     }
+    
 }
 @media (max-width: 400px){
     .about-content .cv{
