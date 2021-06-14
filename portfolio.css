@@ -226,13 +226,13 @@ section .title::after{
     flex: wrap;
 }
 .skills .title::before{
-    background: #03DAC5;
+    background: #111;
     width: 350px
 }
 .skills .title::after{
     background: #ddd;
     content: "Click logos for Github Profile";
-    color: #BB86FC;
+    color: #1C4E80;
 }
 .skills-content .card{
     float: left;
