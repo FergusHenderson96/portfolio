@@ -131,7 +131,7 @@ section .title::after{
     font-size: 20px;
     color: #1C4E80;
     padding: 5px;
-    background: #8e9fa5;
+    background: #ddd;
     transform: translateX(-50%);
     }
  /*about section styling */
@@ -142,7 +142,7 @@ section .title::after{
     content: "Experience";
 }
 .about{
-    background: #8e9fa5;
+    background: #ddd;
 }
 .about-content,
 .skills-content{
@@ -219,9 +219,9 @@ section .title::after{
 
 /*skills section styling */
 .skills{
-    color: #fff;
-    background: #111;
-    height: 900px;
+    color: #222;
+    background: #ddd;
+    height: 750px;
     display: flex;
     flex: wrap;
 }
@@ -230,14 +230,14 @@ section .title::after{
     width: 350px
 }
 .skills .title::after{
-    background: #111;
+    background: #ddd;
     content: "Click logos for Github Profile";
     color: #BB86FC;
 }
 .skills-content .card{
     float: left;
-    width: calc(33% - 15px);
-    background: #111;
+    width: calc(20% - 15px);
+    background: #ddd;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -263,6 +263,11 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.skills-content a img{
+    height: 80px;
+    width: 80px;
+    transition: color 0.3s ease;
 }
 
 /*projects section styling */
@@ -527,7 +532,7 @@ padding: 20px 23px;
         width: 25%;
     }
     .skills{
-        height: 900px;
+        height: 800px;
     }
     .skills .skills-content .card{
         width: 33%;
@@ -585,7 +590,7 @@ padding: 20px 23px;
         width: 30%;
     }
     .skills{
-        height: 1200px;
+        height: 1000px;
     }
     .skills .title::after{
         height: 8px;
